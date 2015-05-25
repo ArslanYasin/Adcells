@@ -1,0 +1,39 @@
+ads class {
+
+int id 
+int image link
+int ad-details blab lba bla
+
+
+
+}
+
+
+
+json parse"
+ id=1; im=1; det=1;
+ id=1; im=1; det=1;
+ id=1; im=1; det=1;
+ id=1; im=1; det=1;
+ id=1; im=1; det=1;
+ id=1; im=1; det=1;
+
+"
+
+loop
+create ads Class object... 
+put first item from json to  object
+
+and create arraylist<ads>  ad
+ad.insert that above object..
+loop end
+
+
+
+now after that.. we will use that array list in oiur main  classes... 
+functionalities / maybe
+first we have all list of ads.. 
+we see which ad we should show... 
+now we get image from its link.. download it.. show it to user.. for said time
+now after that time... we (upload some telemetric data k kitni der show hoi ha... and kitna rate use hoa ha :D)..
+then we change the image... accordingly in loops....
